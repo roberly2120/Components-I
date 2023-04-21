@@ -2,7 +2,7 @@ import './article.less'
 // This is the data we will be using to create our articles. Look at it, then proceed to line 93.
 // OPTIONAL: if you're feeling adventurous, try to make this data an export from a different module, and import it here.
 // You can read about ES6 modules here: https://exploringjs.com/es6/ch_modules.html#sec_basics-of-es6-modules
-const data = [
+const newsData = [
   {
     title: 'BloomTech Students: "We\'re the best!"',
     date: 'Nov 5th, 2018',
@@ -87,9 +87,17 @@ const data = [
     thirdParagraph: `Hodor hodor - hodor... Hodor hodor hodor hodor. Hodor. Hodor! Hodor hodor, hodor hodor hodor hodor hodor; hodor hodor? Hodor!
           Hodor hodor, HODOR hodor, hodor hodor?! Hodor! Hodor hodor, HODOR hodor, hodor hodor, hodor, hodor hodor. Hodor, hodor.
           Hodor. Hodor, hodor, hodor. Hodor hodor... Hodor hodor hodor?! Hodor, hodor... Hodor hodor HODOR hodor, hodor hodor. Hodor.`
+  },
+  {
+  title: 'Testy Test Test',
+  date: 'Literally Never',
+  firstParagraph: 'One type of words is this here kind of them words',
+  secondParagraph: 'LOOK AT ALL OF THESE WORDS IN THE SECOND PARAGRAPH!',
+  thirdParagraph: 'These words are more serious now. Look how far we have come from the earlier times.',
   }
 ];
 
+export default newsData
 /*
   Step 1: Write a component called 'articleMaker' to create an article.
   Your component is a function that takes an article object as its only argument,
